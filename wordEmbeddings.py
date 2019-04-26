@@ -78,3 +78,5 @@ for wordNum in range(vocabSize):
     outV.write("\t".join([str(x) for x in embeddings]) + "\n")
 outV.close()
 outM.close()
+
+#can visualize the data from these two files by uploading them to: http://projector.tensorflow.org/
